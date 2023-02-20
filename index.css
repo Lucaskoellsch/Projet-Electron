@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+body {
+    background-color: #000000e1;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: nunito;
+  }
+  
+  .box {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(57, 54, 54);
+    padding: 3em;
+    border-radius: 10px;
+  }
+  
+  button {
+    width: 100%;
+    background-color: white;
+    height: 3em;
+    border-radius: 10px;
+  }
+
+  button:hover {
+    background-color: rgb(255, 170, 0);
+  }
+
+  h1 {
+    color: white;
+  }
