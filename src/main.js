@@ -93,7 +93,7 @@ function createWindow() {
       });
   });
 
-  mainWindow.loadFile("index.html");
+  mainWindow.loadFile("./src/index.html");
   // active maximize size window
   mainWindow.maximize();
 }
